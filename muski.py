@@ -82,10 +82,10 @@ logo ="""
 \033[1;93m██║░╚═╝░██║╚██████╔╝██████╔╝██║░╚██╗██║
 \033[1;91m╚═╝░░░░░╚═╝░╚═════╝░╚═════╝░╚═╝░░╚═╝╚═╝
 -----------------------------------------------
-  AUTHER     :::     MISKAN PATHANI
+  AUTHER   :::     MISKAN PATHANI
  FACEBOOK  :::     XTYLISH PATHANI
- QUEEN         :::     TFG OWNER
-    QUEEN OF FACEBOOK PATHANI
+ QUEEN     :::     TFG OWNER
+    QUEEN OF FACEBOOK PATHANI
 -----------------------------------------------"""
 def tik():
 	titik = ['.   ','..  ','... ']
