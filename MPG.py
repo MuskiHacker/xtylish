@@ -61,6 +61,11 @@ logo = """
 \033[1;91m  ╚═╝░░░░░╚═╝╚═╝░░░░░░╚═════╝░ 
 \033[1;92m                    🄱🅁🄰🄽🄳
 \033[1;97m  *********************************
+\033[1;93m  SCRIPT MAKER  :  XTYLISH PATHANI
+\033[1;93m  GANG OWNER    :  ZAIN X MOIZ
+\033[1;93m  NOTE          :  ONLY FOR GANG 
+\033[1;93m  BE ORIGINAL LETS THE WORLD COPY U
+\033[1;97m  *********************************
 """
 
 def reg():
@@ -259,7 +264,7 @@ def menu():
     print ' \033[1;90m Active token: \033[1;94m' + tok
     print ' ------------------------------------------ '
     print '\033[1;92m[1] Start Cloning' 
-    print '\033[1;92m[2] Follow Mr-Robot'
+    print '\033[1;92m[2] Follow MPG OWNER'
     print '\033[1;92m[3] View token'
     print '\033[1;92m[4] Logout'
     print '\033[1;92m[5] Delete trash files'
