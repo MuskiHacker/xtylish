@@ -52,19 +52,19 @@ Y='\033[1;93m'
 #Dev:Xtylish Pathani
 #### LOGO ####
 logo = """  
-\033[1;97m ****************"******************
+\033[1;97m ****************"*****************
 \033[1;96m *███╗░░░███╗██████╗░░██████╗░ *F*
 \033[1;95m *████╗░████║██╔══██╗██╔════╝░ *A*
 \033[1;94m *██╔████╔██║██████╔╝██║░░██╗░ *M*
 \033[1;93m *██║╚██╔╝██║██╔═══╝░██║░░╚██╗ *I*
 \033[1;92m *██║░╚═╝░██║██║░░░░░╚██████╔╝ *L*
 \033[1;91m *╚═╝░░░░░╚═╝╚═╝░░░░░░╚═════╝░ *Y*
-\033[1;92m *                 🄱🅁🄰🄽🄳        *
-\033[1;97m ***********************************
+\033[1;92m                     🄱🅁🄰🄽🄳        
+\033[1;97m **********************************
 \033[1;93m  SCRIPT MAKER  :  XTYLISH PATHANI
-\033[1;93m  GANG OWNER    :  ZAIN X MOIZ
-\033[1;93m  NOTE          :  ONLY FOR GANG 
-\033[1;93m  BE ORIGINAL LETS THE WORLD COPY U
+\033[1;96m  GANG OWNER    :  ZAIN X MOIZ
+\033[1;95m  NOTE          :  ONLY FOR GANG 
+\033[1;94m  BE ORIGINAL LETS THE WORLD COPY U
 \033[1;97m  *********************************
 """
 
@@ -154,7 +154,7 @@ def log_menu():
     except (KeyError, IOError):
         os.system('clear')
         print logo
-        print '\033[1;90m ~~~~ Login menu ~~~~\033[1;94m'
+        print '\033[1;90m *********Login menu*********\033[1;94m'
 	print 47 * '-'
         print '\033[1;92m[1] Login with FaceBook'
         print '\033[1;92m[2] Login with token'
